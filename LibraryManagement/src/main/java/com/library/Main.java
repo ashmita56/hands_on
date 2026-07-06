@@ -1,4 +1,4 @@
-package com.library;
+ package com.library;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -16,7 +16,5 @@ public class Main {
                 (BookService) context.getBean("bookService");
 
         service.displayBook();
-
     }
-
 }

@@ -6,6 +6,7 @@ public class BookService {
 
     private BookRepository bookRepository;
 
+    // Setter Injection
     public void setBookRepository(BookRepository bookRepository) {
         this.bookRepository = bookRepository;
     }
@@ -13,4 +14,4 @@ public class BookService {
     public void displayBook() {
         System.out.println("Book : " + bookRepository.getBook());
     }
-}
+} 
