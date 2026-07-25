@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+}
+
+.mystyle1 {
+  order: 1;
+  border-right: 3px solid green;
+  padding: 0 40px;
+}
+
+.st2 {
+  order: 2;
+  border-right: 3px solid green;
+  padding: 0 40px;
+}
+
+.v1 {
+  order: 3;
+  padding: 0 40px;
+}
